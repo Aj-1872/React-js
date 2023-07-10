@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+// import _1Props from './Component/_1Props';
+import _2State from './Component/_2State';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <div className="App">
+
+    
+    // <_1Props name="Bruce" supName="Batman">
+    // //  this line is child line it also need to called by using Children
+    // <p>THis is childer props</p>
+    // </_1Props>
+      
+    //   <_1Props name="Clark" supName="Superman"/>
+    //   <_1Props name="Diana" supName="Wonderwomen"/>
+    // </div>
+
+    <div className='App'>
+
+       <_2State/>
+
     </div>
   );
 }
