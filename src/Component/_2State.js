@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 export class _2State extends Component {
 
+  
+
     constructor (){
         super()
 

@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 
+
 export class _1Props extends Component {
   render() {
+
+    
 
     const {name , supName , children } = this.props;
 
