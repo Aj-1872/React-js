@@ -14,10 +14,10 @@ export class _2State extends Component {
         
     }
 
-     changeMsg=()=>{
+     changeMsg=(name)=>{
 
         this.setState ({
-            message : "Subscribed"
+            message : name
         });
     }
     
@@ -31,7 +31,7 @@ export class _2State extends Component {
       <h1>
       {message}
       <br/>
-      <button onClick={this.changeMsg}>Subscribe</button>
+      <button onClick={()=>{this.changeMsg("ajay")}}>Subscribe</button>
       </h1>
        </div>
     )

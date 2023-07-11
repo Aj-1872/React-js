@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 // import _1Props from './Component/_1Props';
-// import _2State from './Component/_2State';
-import _0color from './Component/_0color';
+import _2State from './Component/_2State';
+// import _0color from './Component/_0color';
+import _3SetState from './Component/_3SetState';
 
 
 function App() {
   return (
+      // <div className='App'>
+    //   <_0color />
+    // </div>
     // <div className="App">
 
 
@@ -21,12 +25,14 @@ function App() {
 
     // <div className='App'>
 
-    //   // <_2State/>
+    //   <_2State/>
     // </div>
-
     <div className='App'>
-      <_0color />
+
+      <_3SetState/>
     </div>
+
+  
   );
 }
 
