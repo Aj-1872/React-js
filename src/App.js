@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-// import _1Props from './Component/_1Props';
+import _1Props from './Component/_1Props';
 import _2State from './Component/_2State';
-// import _0color from './Component/_0color';
+import _0color from './Component/_0color';
 import _3SetState from './Component/_3SetState';
+import _4parent from './Component/_4parent';
 
 
 function App() {
@@ -23,14 +24,13 @@ function App() {
     //   <_1Props name="Diana" supName="Wonderwomen"/>
     // </div>
 
-    // <div className='App'>
 
     //   <_2State/>
-    // </div>
-    <div className='App'>
 
-      <_3SetState/>
-    </div>
+    //   <_3SetState/>
+
+    <_4parent/>
+  
 
   
   );
