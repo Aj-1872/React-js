@@ -7,6 +7,10 @@ import _3SetState from './Component/_3SetState';
 import _4parent from './Component/_4parent';
 import _5Condition from './Component/_5Condition';
 import _6Map from './Component/_6Map';
+import _7StyleSheet from './Component/_7StyleSheet';
+import _7inline from './Component/_7inline';
+import './_7appStyle.css';
+import styles from './_7appStyle.module.css';
 
 
 function App() {
@@ -32,9 +36,13 @@ function App() {
     //   <_3SetState/>
     // <_4parent/>
     // <_5Condition/>
+    // <_6Map/>
+    // <_7StyleSheet primary = {true}/>
 
     <div className='App'>
-    <_6Map/>
+    <_7inline/>
+    <h1 className='error'>error</h1>
+    <h1 className={styles.success}>success</h1>
     </div>
   
 

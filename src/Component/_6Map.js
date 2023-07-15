@@ -26,7 +26,7 @@ export class _6Map extends Component {
         ];
 
         const personList = person.map(anything => (
-            <_6Refactor key={anythingp.id} alsoAnything={anything} />
+            <_6Refactor key={anything.id} alsoAnything={anything} />
         ))
 
 
