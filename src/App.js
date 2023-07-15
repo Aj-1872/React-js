@@ -11,6 +11,7 @@ import _7StyleSheet from './Component/_7StyleSheet';
 import _7inline from './Component/_7inline';
 import './_7appStyle.css';
 import styles from './_7appStyle.module.css';
+import _8From from './Component/_8From';
 
 
 function App() {
@@ -38,11 +39,12 @@ function App() {
     // <_5Condition/>
     // <_6Map/>
     // <_7StyleSheet primary = {true}/>
+    // <_7inline/>
+    // <h1 className='error'>error</h1>
+    // <h1 className={styles.success}>success</h1>
 
     <div className='App'>
-    <_7inline/>
-    <h1 className='error'>error</h1>
-    <h1 className={styles.success}>success</h1>
+    <_8From/>
     </div>
   
 
