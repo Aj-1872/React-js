@@ -5,6 +5,8 @@ import _2State from './Component/_2State';
 import _0color from './Component/_0color';
 import _3SetState from './Component/_3SetState';
 import _4parent from './Component/_4parent';
+import _5Condition from './Component/_5Condition';
+import _6Map from './Component/_6Map';
 
 
 function App() {
@@ -28,8 +30,12 @@ function App() {
     //   <_2State/>
 
     //   <_3SetState/>
+    // <_4parent/>
+    // <_5Condition/>
 
-    <_4parent/>
+    <div className='App'>
+    <_6Map/>
+    </div>
   
 
   

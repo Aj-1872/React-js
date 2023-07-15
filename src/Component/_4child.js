@@ -1,11 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-export default class _4child extends Component {
+export class _4child extends Component {
   render() {
+
+    var name = "ajay";
     return (
       <div>
-        <button onClick={this.props.onClick}>Click Me</button>
+      <button onClick={()=>{this.props.greetHandler(name)}}>GreetParent</button>
       </div>
-    );
+    )
   }
 }
+
+export default _4child
