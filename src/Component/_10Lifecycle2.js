@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import _9LifecycleB from './_9LifecycleB';
 
 
- class _9Lifecycle extends Component {
+ class _10Lifecycle2 extends Component {
     constructor(props) {
         super(props)
       
@@ -22,13 +22,33 @@ import _9LifecycleB from './_9LifecycleB';
         console.log('LifecycleA componentDidMount');
 
       }
-      
-      
+
+      shouldComponentUpdate(){
+        console.log('lifecycleA shouldComponentUpdate');
+        return null;
+
+      }
+
+      getSnapshotBeforeUpdate(){
+        console.log('lifecycleA getSnapshotBeforeUpdate ');
+        return null;
+      }
+
+      componentDidUpdate(){
+        console.log('lifecycleA componentDidUpdate');
+      }
+
+      changeState =()=>{
+        this.setState({
+          name : 'codeevalution'
+        })
+      }
   render() {
     console.log('LifecycleA render');
     return (
       <div>Lifecycle A
       <div>
+      <button onClick={this.changeState}>Change state</button>
       <_9LifecycleB/>
       </div>
       </div>
@@ -36,4 +56,4 @@ import _9LifecycleB from './_9LifecycleB';
   }
 }
 
-export default _9Lifecycle
+export default _10Lifecycle2

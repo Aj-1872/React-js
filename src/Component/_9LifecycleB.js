@@ -22,6 +22,20 @@ import React, { Component } from 'react'
         console.log('LifecycleB componentDidMount');
 
       }
+
+      shouldComponentUpdate(){
+        console.log('lifecycleB shouldComponentUpdate');
+        return null;
+      }
+
+      getSnapshotBeforeUpdate(){
+        console.log('lifecycleB getSnapshotBeforeUpdate ');
+        return null;
+      }
+
+      componentDidUpdate(){
+        console.log('lifecycleB componentDidUpdate');
+      }
   render() {
     console.log('LifecycleB render');
     return (

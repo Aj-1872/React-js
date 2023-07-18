@@ -13,11 +13,12 @@ import './_7appStyle.css';
 import styles from './_7appStyle.module.css';
 import _8From from './Component/_8From';
 import _9Lifecycle from './Component/_9Lifecycle';
-
-
+import _10Lifecycle2 from './Component/_10Lifecycle2';
+import _1Fragment from './Component/Advance/_1Fragments';
+import _1FragmentTable from './Component/Advance/_1FragmentTable';
 function App() {
   return (
-      // <div className='App'>
+    // <div className='App'>
     //   <_0color />
     // </div>
     // <div className="App">
@@ -44,13 +45,16 @@ function App() {
     // <h1 className='error'>error</h1>
     // <h1 className={styles.success}>success</h1>
     // <_8From/>
-    
-    <div className='App'>
-    <_9Lifecycle/>
-    </div>
-  
+    // <_9Lifecycle/>
+    // <_10Lifecycle2/>
+    // <_1Fragment/>
 
-  
+    <div className='App'>
+      <_1FragmentTable />
+    </div>
+
+
+
   );
 }
 
