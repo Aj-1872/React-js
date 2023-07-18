@@ -16,6 +16,9 @@ import _9Lifecycle from './Component/_9Lifecycle';
 import _10Lifecycle2 from './Component/_10Lifecycle2';
 import _1Fragment from './Component/Advance/_1Fragments';
 import _1FragmentTable from './Component/Advance/_1FragmentTable';
+import _2PureComponent from './Component/Advance/_2PureComponent';
+import { PureComponent } from 'react';
+import _2ParentComponent from './Component/Advance/_2ParentComponent';
 function App() {
   return (
     // <div className='App'>
@@ -48,9 +51,11 @@ function App() {
     // <_9Lifecycle/>
     // <_10Lifecycle2/>
     // <_1Fragment/>
+    // <_1FragmentTable />
 
+    // <_2PureComponent/>
     <div className='App'>
-      <_1FragmentTable />
+    <_2ParentComponent/>
     </div>
 
 
