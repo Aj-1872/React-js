@@ -19,6 +19,10 @@ import _1FragmentTable from './Component/Advance/_1FragmentTable';
 import _2PureComponent from './Component/Advance/_2PureComponent';
 import { PureComponent } from 'react';
 import _2ParentComponent from './Component/Advance/_2ParentComponent';
+import _3Memo from './Component/Advance/_3Memo';
+import _4RefsDemo from './Component/Advance/_4RefsDemo';
+import _4FocusINput from './Component/Advance/_4FocusINput';
+
 function App() {
   return (
     // <div className='App'>
@@ -54,8 +58,12 @@ function App() {
     // <_1FragmentTable />
 
     // <_2PureComponent/>
+    // <_2ParentComponent/>
+    // <_3Memo/>
+    // <_4RefsDemo/>
+
     <div className='App'>
-    <_2ParentComponent/>
+  <_4FocusINput/>
     </div>
 
 

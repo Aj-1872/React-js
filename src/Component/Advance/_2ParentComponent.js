@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import _2RegComponent from './_2RegComponent'
 import _2PureComponent from './_2PureComponent'
+import _3Memo from './_3Memo'
 
 export class _2ParentComponent extends Component {
     constructor(props) {
@@ -25,9 +26,9 @@ export class _2ParentComponent extends Component {
     return (
       <div>
       parent component
-      <_2RegComponent name={this.state.name}></_2RegComponent>
-      <_2PureComponent name={this.state.name} ></_2PureComponent>
-      </div>
+      <_3Memo name={this.state.name}/>
+      {/*<_2RegComponent name={this.state.name}></_2RegComponent>*/}
+       {/*<_2PureComponent name={this.state.name} ></_2PureComponent>*/}      </div>
     )
   }
 }
