@@ -22,6 +22,9 @@ import _2ParentComponent from './Component/Advance/_2ParentComponent';
 import _3Memo from './Component/Advance/_3Memo';
 import _4RefsDemo from './Component/Advance/_4RefsDemo';
 import _4FocusINput from './Component/Advance/_4FocusINput';
+import _5FrParentinput from './Component/Advance/_5FrParentinput';
+import _6error from './Component/Advance/_6error';
+import _6errorBoundry from './Component/Advance/_6errorBoundry';
 
 function App() {
   return (
@@ -56,14 +59,26 @@ function App() {
     // <_10Lifecycle2/>
     // <_1Fragment/>
     // <_1FragmentTable />
-
     // <_2PureComponent/>
     // <_2ParentComponent/>
     // <_3Memo/>
     // <_4RefsDemo/>
+    // <_4FocusINput/>
 
+    // <_5FrParentinput/>
     <div className='App'>
-  <_4FocusINput/>
+    
+    <_6errorBoundry>
+    <_6error heroName="batman"/>
+    </_6errorBoundry>
+
+    <_6errorBoundry>
+    <_6error heroName="superman"/>
+    </_6errorBoundry>
+
+    <_6errorBoundry>
+    <_6error heroName="joker"/>
+    </_6errorBoundry>
     </div>
 
 
