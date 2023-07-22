@@ -25,7 +25,7 @@ import _4FocusINput from './Component/Advance/_4FocusINput';
 import _5FrParentinput from './Component/Advance/_5FrParentinput';
 import _6error from './Component/Advance/_6error';
 import _6errorBoundry from './Component/Advance/_6errorBoundry';
-
+import _7higherOrderComponent from './Component/Advance/_7higherOrderComponent';
 function App() {
   return (
     // <div className='App'>
@@ -66,21 +66,25 @@ function App() {
     // <_4FocusINput/>
 
     // <_5FrParentinput/>
-    <div className='App'>
     
-    <_6errorBoundry>
-    <_6error heroName="batman"/>
-    </_6errorBoundry>
+    // <div className='App'>
 
-    <_6errorBoundry>
-    <_6error heroName="superman"/>
-    </_6errorBoundry>
+    // <_6errorBoundry>
+    // <_6error heroName="batman"/>
+    // </_6errorBoundry>
 
-    <_6errorBoundry>
-    <_6error heroName="joker"/>
-    </_6errorBoundry>
+    // <_6errorBoundry>
+    // <_6error heroName="superman"/>
+    // </_6errorBoundry>
+
+    // <_6errorBoundry>
+    // <_6error heroName="joker"/>
+    // </_6errorBoundry>
+    // </div>
+
+    <div className='App'>
+    <_7higherOrderComponent name='ajay'/>
     </div>
-
 
 
   );
