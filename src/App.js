@@ -27,6 +27,10 @@ import _5FrParentinput from './Component/Advance/_5FrParentinput';
 import _6error from './Component/Advance/_6error';
 import _6errorBoundry from './Component/Advance/_6errorBoundry';
 import _7higherOrderComponent from './Component/Advance/_7higherOrderComponent';
+import _8ClickComponentTwo from './Component/Advance/_8ClickComponentTwo';
+import _8HoverCounter from './Component/Advance/_8HoverCounter';
+import _8User from './Component/Advance/_8User';
+import _8Counter from './Component/Advance/_8Counter';
 function App() {
   return (
     // <div className='App'>
@@ -67,7 +71,7 @@ function App() {
     // <_4FocusINput/>
 
     // <_5FrParentinput/>
-    
+
     // <div className='App'>
 
     // <_6errorBoundry>
@@ -83,9 +87,21 @@ function App() {
     // </_6errorBoundry>
     // </div>
     // <_7higherOrderComponent name='ajay'/>
+    // <_0api/>
+    // <_8ClickComponentTwo/>
+    // <_8HoverCounter/>
+    // <_8User render={(isLoggedIn)=> isLoggedIn ?  'ajay' : 'guest'}/>
 
     <div className='App'>
-    <_0api/>
+      <_8Counter render={(count, increment) =>
+         <_8ClickComponentTwo count={count} increment={increment} />
+        } />
+
+      <_8Counter render={(count, increment) =>
+       <_8HoverCounter count={count} increment={increment} />
+
+        
+        } />
     </div>
 
 
