@@ -1,0 +1,2 @@
+    const apiKey = '14bc42826e664185a097a05cc18bfa5a'; // Replace with your actual API key
+    const url = `https://newsapi.org/v2/everything?q=apple&from=2023-07-07&to=2023-07-07&sortBy=popularity&apiKey=${apiKey}&pageSize=20;

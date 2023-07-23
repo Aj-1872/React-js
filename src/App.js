@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import _1Props from './Component/_1Props';
 import _2State from './Component/_2State';
+import _0api from './Component/_0api';
 import _0color from './Component/_0color';
 import _3SetState from './Component/_3SetState';
 import _4parent from './Component/_4parent';
@@ -81,9 +82,10 @@ function App() {
     // <_6error heroName="joker"/>
     // </_6errorBoundry>
     // </div>
+    // <_7higherOrderComponent name='ajay'/>
 
     <div className='App'>
-    <_7higherOrderComponent name='ajay'/>
+    <_0api/>
     </div>
 
 
