@@ -31,6 +31,8 @@ import _8ClickComponentTwo from './Component/Advance/_8ClickComponentTwo';
 import _8HoverCounter from './Component/Advance/_8HoverCounter';
 import _8User from './Component/Advance/_8User';
 import _8Counter from './Component/Advance/_8Counter';
+import _9context from './Component/Advance/_9context';
+import { userProvider } from './Component/Advance/_9user';
 function App() {
   return (
     // <div className='App'>
@@ -92,16 +94,24 @@ function App() {
     // <_8HoverCounter/>
     // <_8User render={(isLoggedIn)=> isLoggedIn ?  'ajay' : 'guest'}/>
 
+    /* <_8Counter render={(count, increment) =>
+        <_8ClickComponentTwo count={count} increment={increment} />
+       } />
+
+     <_8Counter render={(count, increment) =>
+      <_8HoverCounter count={count} increment={increment} />
+
+       
+       } />*/
+
     <div className='App'>
-      <_8Counter render={(count, increment) =>
-         <_8ClickComponentTwo count={count} increment={increment} />
-        } />
 
-      <_8Counter render={(count, increment) =>
-       <_8HoverCounter count={count} increment={increment} />
+    <userProvider value='ajay'>
+    
+    <_9context/>
 
-        
-        } />
+    </userProvider>
+
     </div>
 
 
